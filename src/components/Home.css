@@ -1,0 +1,54 @@
+body {
+  color: #1f1f1f;
+  font-family: 'dejavu-sans';
+  font-size: 16px;
+}
+.page-edge-shadow {
+  background: rgb(212,212,212);
+  background: linear-gradient(180deg, #f1f1f1 0%, rgba(0,212,255,0) 100%);
+  height: 18px;
+}
+.page-edge-shadow.reverse {
+  background: linear-gradient(0, #f1f1f1 0%, rgba(0,212,255,0) 100%);
+}
+.App {
+  text-align: center;
+}
+.wrapper-textual, .bookmark, .wrapper-gallery {
+  padding-top: 5vh;
+}
+.bookmark--pagenum {
+  border-bottom: 1px solid #1f1f1f;
+}
+.bookmark--name {
+  writing-mode: vertical-rl;
+}
+.wrapper-textual--title {
+  font-size: 4rem;
+  line-height: 3.2rem;
+}
+.wrapper-textual--headline {
+  flex: 0 1 60%;
+}
+.text-small, .bookmark, .wrapper-textual--article, .wrapper-textual--quote, .wrapper-textual--table-of-contents {
+  font-size: 0.74rem;
+}
+.divider {
+  border-bottom: 2px solid #7984a9;
+  width: 15%;
+}
+.wrapper-gallery--row-1 {
+  z-index: 1000;
+}
+.wrapper-gallery--row-2 {
+  z-index: 100;
+}
+.wrapper-gallery--row-3 {
+  z-index: 10;
+}
+
+@media (min-width: 1200px) {
+  .wrapper-gallery {
+    padding-right: calc(5vh + 18px);  /* 5vh = top spacing, 18px = drop shadow at top of page */
+  }
+}

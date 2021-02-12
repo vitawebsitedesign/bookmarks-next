@@ -1,0 +1,16 @@
+.gallery-tile {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    filter: brightness(0.95);
+    height: 200px;
+    transition: filter 0.1s;
+    width: 200px;
+}
+.gallery-tile:hover {
+    filter: brightness(1);
+}
+.gallery-tile--video {
+    height: 100%;
+    width: 100%;
+}
