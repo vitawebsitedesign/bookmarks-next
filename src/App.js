@@ -10,7 +10,7 @@ function App() {
   return (
     <React.StrictMode>
       <Provider store={store}>
-        <Router>
+        <Router basename={process.env.PUBLIC_URL}>
           <Switch>
             <Route exact path="/exhibit/:id" component={Exhibit} />
             <Route exact path="/" component={Home} />
