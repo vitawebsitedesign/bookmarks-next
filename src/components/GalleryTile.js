@@ -22,12 +22,13 @@ const resetVideo = (event) => {
 const GalleryTile = props => {
     return (
         <NavLink to={'/exhibit/' + props.exhibitId} onMouseEnter={playVideo} onMouseLeave={resetVideo} className={props.className + ' position-relative gallery-tile'}>
-            <GalleryTileCaption captionTitle={props.captionTitle} className="text-small" />
-            
             <video className="gallery-tile--video" muted loop>
                 <source src={`${process.env.PUBLIC_URL}/vid/${props.thumbnails.webm}`} type="video/webm" />
                 <source src={`${process.env.PUBLIC_URL}/vid/${props.thumbnails.mp4}`} type="video/mp4" />
             </video>
+            <div className="position-absolute h-100 w-100 gallery-tile--overlay-gradient"></div>
+
+            <GalleryTileCaption captionTitle={props.captionTitle} className="text-small" />
         </NavLink>
     );
 };
