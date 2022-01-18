@@ -24,7 +24,7 @@ Certain asset prices are determined by supply and demand.
 In 2004, Blizzard Entertainment released WoW, which featured an auction house system comprised of real bidders & sellers that influence prices.
 Like the real world, assets would periodically fluctuate & cause temporary underpriced & overpriced assets. In other words: opportunities to buy, sell & flip.
 
-Productively data mining & deriving calculated information for the assets, would allow one to take advantage of both situations.
+What if one were to combine a traditional mean reversion strategy, with data-mined asset statistics? Would it open a window of opportunity to take advantage of temporary market fluctations?
 Hence, "Mint" is a valuable suite to achieve this.
 
 Calculations work by diffing datafiles and calculating differences weighted by market liquidity & purchasing power available.
