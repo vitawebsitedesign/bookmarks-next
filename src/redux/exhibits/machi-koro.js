@@ -22,8 +22,8 @@ This project is a ReactJS implementation of the Machi Koro tabletop product. Too
     `,
     "preview": {
 		"thumbnails": {
-			"webm": "machi-koro.webm",
-			"mp4": "machi-koro.mp4"
+			"webm": "placeholder.webm",
+			"mp4": "placeholder.mp4"
 		},
         "about": "Digital implementation of the Machi Koro board game"
     },

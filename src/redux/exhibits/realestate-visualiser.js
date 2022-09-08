@@ -34,8 +34,8 @@ Hence, this web suite was created to:
     `,
     "preview": {
 		"thumbnails": {
-			"webm": "realestate-visualiser.webm",
-			"mp4": "realestate-visualiser.mp4"
+			"webm": "placeholder.webm",
+			"mp4": "placeholder.mp4"
 		},
         "about": "Mine & view realestate.com.au listings as pins on an interactive Google map"
     },

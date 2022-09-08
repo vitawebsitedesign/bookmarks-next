@@ -27,8 +27,8 @@ This website allows users to productively fetch market capitalizations, & is mad
     `,
     "preview": {
 		"thumbnails": {
-			"webm": "asx-market-capitalisation.webm",
-			"mp4": "asx-market-capitalisation.mp4"
+			"webm": "placeholder.webm",
+			"mp4": "placeholder.mp4"
 		},
         "about": "Productively view market capitalization for ASX companies"
     },

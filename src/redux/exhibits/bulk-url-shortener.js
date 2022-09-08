@@ -26,8 +26,8 @@ This ASP.NET MVC Core & Entity Framework Core project processes spreadsheets, UR
     `,
     "preview": {
 		"thumbnails": {
-			"webm": "bulk-url-shortener.webm",
-			"mp4": "bulk-url-shortener.mp4"
+			"webm": "placeholder.webm",
+			"mp4": "placeholder.mp4"
 		},
 		"about": "Quickly convert spreadsheets into a list of shortened URLs"
 	},
