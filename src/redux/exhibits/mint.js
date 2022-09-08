@@ -32,8 +32,8 @@ This suite was implemented with Lua (for datamining), ES6 for calculations, & Re
     `,
     "preview": {
 		"thumbnails": {
-			"webm": "mint.webm",
-			"mp4": "mint.mp4"
+			"webm": "placeholder.webm",
+			"mp4": "placeholder.mp4"
 		},
         "about": "Lua & ReactJS suite that performs calculations on profit/loss data",
         "youtubes": [
