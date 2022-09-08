@@ -24,8 +24,8 @@ This mobile app was used on a daily basis, during bus & train transport to & fro
     `,
     "preview": {
 		"thumbnails": {
-			"webm": "follow-the-process.webm",
-			"mp4": "follow-the-process.mp4"
+			"webm": "placeholder.webm",
+			"mp4": "placeholder.mp4"
 		},
         "about": "Windows mobile app to scan daily stockmarket business opportunities"
     },

@@ -31,8 +31,8 @@ The significant productivity boost enabled by this app proves valuable.
     `,
     "preview": {
 		"thumbnails": {
-			"webm": "sql-keyword-formatter.webm",
-			"mp4": "sql-keyword-formatter.mp4"
+			"webm": "placeholder.webm",
+			"mp4": "placeholder.mp4"
 		},
         "about": "Automatically uppercase T-SQL keywords in multi-line strings",
         "images": [
