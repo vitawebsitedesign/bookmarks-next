@@ -31,67 +31,33 @@ function Home(props) {
           <aside className="d-flex flex-column flex-grow-1 ml-4 text-left wrapper-textual">
             <div className="d-flex flex-column text-uppercase text-lighter wrapper-textual--title">
               <div className="mt-1 mb-3">
-                <span className="text-powder-blue">dream</span>
-                <span className="text-powder-blue">ware.</span>  
+                <span className="text-powder-blue">portfolio.</span>
               </div>
             </div>
             <div className="mt-5 mb-3 divider"></div>
             <div className="d-flex mb-5">
               <div className="text-bold wrapper-textual--headline">
-                Perfect software is challenging, exhillerating, bloody hard!<br />
-                And thats why I love it.
+              List of open-source projects developed in personal time.
               </div>
             </div>
-            <section className="mt-4 row wrapper-textual--article">
+            <section className="row wrapper-textual--article">
               <div className="col-12 col-md-6">
-                <p className="text-bold">
-                  Whats makes good software engineers?
+                <p>
+                  Click a project on the right to view more details.
                 </p>
                 <p>
-                  Do we keep running the rat race, hoping to break a new velocity sprint record?
+                  This project list is non-exhaustive - these are just the ones that still have source code hosted on Github.
                 </p>
                 <p>
-                  Do we chase high-impact company initiatives as Skunkworks projects?
-                </p>
-                <p>
-                  Do we balance output with textbook quality osftware, without introducing schedule risk?
-                </p>
-                <p>
-                  Do we offer multidisciplinary pragmatici nsights to guide technical decisions?
-                </p>
-                <p>
-                  Do we manage short-term &amp; long-term tech debt to maximise a company's marketshare?
-                </p>
-                <p>
-                  The reality is that &quot;perfect&quot; software is more difficult than most people think.
-                </p>
-              </div>
-              <div className="col-12 col-md-6">
-                <p className="text-bold">
-                  Perfection in reality is different from ideals.
-                </p>
-                <p>
-                  A good software engineer isn&lsquo;t just about writing pretty code, its about maximizing happiness of all direct &amp; indirect stakeholders in the business you work for.
-                </p>
-                <p>
-                  Shareholders, management, tech, product, customer support, your team.
-                </p>
-                <p>
-                  Schedule risk, operational risk, resource risk.
-                </p>
-                <p>
-                  Its bloody hard, which means work is going towards something with an awesome reward!
+                This page doesn't include any code made before 18 years old, such as financial technical analysis indicators made in php that ran autonomously via a linux CLI-only OS.
                 </p>
               </div>
             </section>
-            <section className="my-4 row text-uppercase wrapper-textual--quote">
-              <div className="col-12 col-md-6 border-right text-right">
-                <div>its not where you are.</div>
-                <div>its your improvement from yesterday.</div>
-              </div>
-              <div className="col-12 col-md-6 d-flex align-items-center text-bold">
+            <section className="my-4 row wrapper-textual--quote">
+              <div className="col-12 col-md-6 pt-3 border-top">
+                <div>By michael nguyen</div>
                 <Hyperlink href="https://www.linkedin.com/in/michael-nguyen57/" title="Opens michaels LinkedIn profile in a new tab">
-                  michael nguyen
+                  LinkedIn
                 </Hyperlink>
               </div>
             </section>
